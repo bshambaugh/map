@@ -21,4 +21,6 @@ console.log(b);
 console.log(e);
 console.log(_.difference(a,b));
 console.log(_.intersection(a,b));
-
+// check to see if custom code produces the same result 
+// as lodash for array intersection
+console.log(_.isEqual(e.sort(),_.intersection(a,b).sort()));
