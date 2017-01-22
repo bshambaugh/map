@@ -24,3 +24,7 @@ console.log(_.intersection(a,b));
 // check to see if custom code produces the same result 
 // as lodash for array intersection
 console.log(_.isEqual(e.sort(),_.intersection(a,b).sort()));
+// https://lodash.com/docs#intersection
+// http://stackoverflow.com/questions/29951293/using-lodash-to-compare-arrays
+// http://www.w3schools.com/jsref/jsref_push.asp
+
