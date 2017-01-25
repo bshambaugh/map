@@ -1,13 +1,20 @@
-// This is the construct Primatives code that work with the cli in node.js
 var _ = require('./find-duplicates/libraries/lodash');
-var triples = [["d", "i", "q"],["a", "f", "c"],["c", "g", "d"],["e", "h", "c"],["c", "i", "q"]];
-var width = 400;
-var height = 400;
+var primatives = function() {};
 
-var primatives = constructPrimatives(triples,width,height);
+//var triples = [["d", "i", "q"],["a", "f", "c"],["c", "g", "d"],["e", "h", "c"],["c", "i", "q"]];
+//var width = 400;
+//var height = 400;
+
+/*
+exports.primatives = function(triples,width,height) { 
+  return constructPrimatives(triples,width,height);
+};
+*/
+
+// primatives = constructPrimatives(triples,width,height);
 //console.log(primatives);
-console.log(primatives.nodes);
-console.log(primatives.edges);
+//console.log(primatives.nodes);
+//console.log(primatives.edges);
 //var edges = primatives[0];
 //var nodes = primatives[1];
 //console.log(edges);
@@ -23,7 +30,7 @@ console.log(nodes[0].node_name);
 console.log(primatives[1][0].node_name);
 */
 
-function constructPrimatives(triples,width,height) {
+primatives.prototype.constructPrimatives = function (triples,width,height) {
 //subject array
 var subjects = [];
 //object array
@@ -122,3 +129,4 @@ function node(point1,point2,name) {
   this.node_name = name;
 }
 
+module.exports = primatives;
