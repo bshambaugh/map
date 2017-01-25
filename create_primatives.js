@@ -1,3 +1,4 @@
+// writing the node code as a node module primatives -- 2nd try
 var _ = require('./find-duplicates/libraries/lodash');
 var exports = module.exports = {};
 //var triples = [["d", "i", "q"],["a", "f", "c"],["c", "g", "d"],["e", "h", "c"],["c", "i", "q"]];

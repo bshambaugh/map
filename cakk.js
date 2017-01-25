@@ -1,3 +1,4 @@
+// 1st attempt of sketch.js to call intersect-subj-obj-5-clean.js as a node module..for plotting in p5.js 
 var primatives = require('./create-primatives.js');
 var triples = [["d", "i", "q"],["a", "f", "c"],["c", "g", "d"],["e", "h", "c"],["c", "i", "q"]];
 var width = 400;

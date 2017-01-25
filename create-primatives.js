@@ -1,3 +1,4 @@
+// writing the node code (intersect-subj-obj-5-clean.js) as a node modul (1st try)
 var _ = require('./find-duplicates/libraries/lodash');
 var primatives = function() {};
 
